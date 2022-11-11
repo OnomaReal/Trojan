@@ -1,6 +1,6 @@
 import socket, logging
 
-host = "192.168.1.53" # adresse du serveur (remplacer par l'ip externe)
+host = "192.168.1.7" # adresse du serveur (remplacer par l'ip)
 port = 8888 # port d'écoute du serveur
 
 file = "log.txt" # nom du fichier de logs 
